@@ -1,0 +1,33 @@
+body{
+    background: rgb(211, 142, 142);
+}
+.portfolio{
+    font-size: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+    margin: 80px;
+    padding: 80px;
+}
+.my{
+    color: brown;
+}
+.portfolio1{
+    color: white;
+}
+.cadre{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1px;
+    margin-right: 1000px;
+    background-color:rgb(221, 108, 108) ;
+}
+.about_me{
+    text-decoration: none;
+}
+.skills{
+    text-decoration: none;
+}
+

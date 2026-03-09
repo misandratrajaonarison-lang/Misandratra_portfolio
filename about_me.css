@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+.presentation{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+.nom{
+    font-size: 30px;
+}
+.icone{
+    width: 20px;
+    height: 20px;
+}
+.personnelle{
+    font-size: 15px;
+}
+.cadre{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color:rgb(221, 108, 108) ;
+}
+.academique{
+    color:brown
+}
