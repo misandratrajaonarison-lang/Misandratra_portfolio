@@ -50,4 +50,12 @@ body{
   .center{
     text-align: center;
   }
- 
+  .objectif{
+   
+    color: darkblue;
+  }
+ #objectifs{
+    color:black;
+    text-decoration: dashed;
+    
+ }
