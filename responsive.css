@@ -1,0 +1,67 @@
+/* règle globale */
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cadre responsive */
+.cadre{
+    max-width:900px;
+    width:90%;
+    margin:auto;
+}
+
+/* images */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* responsive tablette */
+@media (max-width:768px){
+
+    .portfolio{
+        font-size:40px;
+    }
+
+    .haut{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
+
+/* responsive téléphone */
+@media (max-width:480px){
+
+    .portfolio{
+        font-size:30px;
+    }
+
+}
+
+/* barre de navigation */
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* liens navigation */
+.navbar a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: Arial;
+}
+
+/* effet au survol */
+.navbar a:hover{
+    color: darkblue;
+}
